@@ -106,6 +106,54 @@ This is where we include some basic lines of code or queries or even some of the
 
 1. SQL SERVER MANAGEMENT STUDIO 20 CODE/QUERIES
 
+```SQL
+
+SELECT * FROM [dbo].[Capstone Sales main]
+
+
+SELECT Product, Sum(Quantity*unitprice) AS Total_sales
+FROM [dbo].[Capstone Sales main]
+GROUP BY Product
+
+
+SELECT Region, Count(*) AS NumberOfTransaction
+FROM [dbo].[Capstone Sales main]
+GROUP BY Region
+
+
+SELECT Top 1 product, Sum(Quantity*unitprice) AS Total_sales
+FROM [dbo].[Capstone Sales main]
+GROUP BY Product
+ORDER BY Total_sales DESC
+
+
+SELECT Top 3 product, Sum(Quantity*unitprice) AS Total_sales
+FROM [dbo].[Capstone Sales main]
+GROUP BY Product
+ORDER BY Total_sales DESC
+
+
+SELECT Month(OrderDate) AS Month, Sum(Quantity*unitprice) AS Monthly_Sales
+FROM [dbo].[Capstone Sales main]
+WHERE Year(OrderDate) = Year(GetDate())
+GROUP BY Month(OrderDate)
+ORDER BY Month 
+
+ 
+SELECT Region, sum(Quantity*unitprice) AS Total_sales,
+sum(Quantity*unitprice) * 1.0/ (select sum(Quantity*unitprice)
+FROM [dbo].[Capstone Sales main]) * 100 AS Percentage_Of_Total_Sales
+FROM [dbo].[Capstone Sales main]
+GROUP BY Region
+
+
+SELECT Distinct Product
+FROM [dbo].[SALES DATA SQL]
+WHERE Product Not IN(
+SELECT Product
+FROM [dbo].[Capstone Sales main]
+WHERE OrderDate >= DateAdd(quarter,-1,GetDate()) and OrderDate < GetDate())
+```
 
 ### DATA VISUALIZATIONS
 ---
