@@ -198,3 +198,6 @@ WHERE OrderDate >= DateAdd(quarter,-1,GetDate()) and OrderDate < GetDate())
 
 
 ![SQL SALES 7](https://github.com/user-attachments/assets/9c4d06d2-7b24-43cc-99c0-07c55f6543fe)
+
+
+#### POWER BI INSIGHTS AND VISUALIZATIONS
