@@ -39,3 +39,19 @@ The dataset includes the following fields:
 - UNIT PRICE: The selling price of each product
 
 - TOTAL REVENUE: The total sales revenue generated from each order. It can be calculated as Quantity Sold * Price per Unit. This is essential for revenue analysis, profit calculations, and sales performance metrics.
+
+  ### TOOLS USED
+  ---
+- Microsoft Excel 
+
+1. For Data Cleaning
+2. For Analysis
+3. For Visualization
+   
+- SQL - Structured Query Language for querying of Data
+
+- Microsoft Power Business Intelligence ( POWER BI) for Visualizations and creation of compelling insights
+
+- Github for Portfolio Building
+
+### DATA CLEANING AND PREPARATIONS
