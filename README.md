@@ -60,23 +60,23 @@ The dataset includes the following fields:
 ### DATA CLEANING AND PREPARATIONS
 ---
 1. Data Cleaning
-   - Using Excel, all duplicated data were removed by going to the Data tab > Data tools > Remove duplicates
+   - Using Microsoft Excel, all duplicated data were removed by going to the Data tab > Data tools > Remove duplicates
      
 2. Data Importation
    - A copy of the cleaned data was converted to CSV flat and imported into SQL Server Management Studio 20
    - A copy of the cleaned data was also imported into Power BI, the  data was transformed and appropriate data types were chosen and applied
   
 3. Data Visualization
- - In Excel, Pivot tables were used to summarize the data and Bar charts were created to visually represent key insights.
+ - In Microsoft Excel, Pivot tables were used to summarize the data and Bar charts were created to visually represent key insights.
  - In SQL Server Management Studio, codes were written to provide answers to research questions and screenshots of the output was taken.
- -  In Power BI, several visualizations were made using Bar charts, tables, cards, Pie charts, Slicers, etc.
+ - In Power BI, several visualizations were made using Bar charts, tables, cards, Pie charts, Slicers, etc.
 
    
 ### EXPLORATORY DATA ANALYSIS
 ---
 EDA involved the exploring of Data to answer some questions about the Data such as;
 
-1. EXCEL:
+1. MICROSOFT EXCEL:
 i. Using pivot tables to summarize 
 - total sales by product
 - total sales by region
@@ -100,6 +100,17 @@ total revenue by region
 - Regional breakdowns
 
 
-DATA ANALYSIS
+### DATA ANALYSIS
+---
 This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis;
+
+1. SQL SERVER MANAGEMENT STUDIO 20 CODE/QUERIES
+
+
+### DATA VISUALIZATIONS
+---
+#### MICROSOFT EXCEL INSIGHTS AND VISUALIZATIONS
+ 
+
+
    
