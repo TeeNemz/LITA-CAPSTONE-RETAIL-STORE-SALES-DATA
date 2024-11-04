@@ -2,7 +2,7 @@
 
 ### PROJECT OVERVIEW
 ---
-This Data Analysis project aims to generate insight into the sales performance of a Retail store. By analyzing the various parameters in the data received we seek to uncover key insights such as top-selling products, regional performance, and monthly sales trends,that can guide business decisions and foster growth.
+This Data Analysis project aims to generate insight into the sales performance of a Retail store. By analyzing the various parameters in the data received we seek to uncover key insights such as top-selling products, regional performance, and monthly sales trends, that can guide business decisions and foster growth.
 
 ### PROJECT OBJECTIVES
 ---
@@ -67,3 +67,5 @@ The dataset includes the following fields:
  - In Excel, Pivot tables were used to summarize the data and Bar charts were created to visually represent key insights.
  - In SQL Server Management Studio, codes were written to provide answers to research questions and screenshots of the output was taken.
  -  In Power BI, several visualizations were made using Bar charts, tables, cards, Pie charts, Slicers, etc.
+
+   
