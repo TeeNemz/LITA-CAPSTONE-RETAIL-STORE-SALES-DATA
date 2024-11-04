@@ -127,10 +127,11 @@ GROUP BY Product
 ORDER BY Total_sales DESC
 
 
-SELECT Top 3 product, Sum(Quantity*unitprice) AS Total_sales
+
+SELECT Top 5 Customer_id, Sum(Quantity*unitprice) AS Total_Purchase_Amount
 FROM [dbo].[Capstone Sales main]
-GROUP BY Product
-ORDER BY Total_sales DESC
+GROUP BY Customer_id
+ORDER BY Total_Purchase_Amount DESC
 
 
 SELECT Month(OrderDate) AS Month, Sum(Quantity*unitprice) AS Monthly_Sales
