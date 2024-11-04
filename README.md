@@ -176,3 +176,25 @@ WHERE OrderDate >= DateAdd(quarter,-1,GetDate()) and OrderDate < GetDate())
 
 
 #### SQL CODES AND VALIDATED QUERIES
+---
+
+
+![SQL SALES](https://github.com/user-attachments/assets/14b02f27-c8ac-4956-b3cb-a18b02cfcd6c)
+
+
+![SQL SALES 2](https://github.com/user-attachments/assets/039a8160-c7a2-4347-9bce-76d0f9f785b0)
+
+
+![SQL SALES 3](https://github.com/user-attachments/assets/8d150f2e-8c06-43d2-9b6a-6ca990f554c9)
+
+
+![SQL SALES 4](https://github.com/user-attachments/assets/ded86b8a-4bd6-4e8c-a1f8-190ac83f8aaf)
+
+
+![SQL SALES 5](https://github.com/user-attachments/assets/dcadbe92-68a4-4c10-99e0-34eb88785c19)
+
+
+![SQL SALES 6](https://github.com/user-attachments/assets/db127eed-a5eb-4080-a825-a02b264f11bc)
+
+
+![SQL SALES 7](https://github.com/user-attachments/assets/9c4d06d2-7b24-43cc-99c0-07c55f6543fe)
