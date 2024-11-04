@@ -158,7 +158,20 @@ WHERE OrderDate >= DateAdd(quarter,-1,GetDate()) and OrderDate < GetDate())
 ### DATA VISUALIZATIONS
 ---
 #### MICROSOFT EXCEL INSIGHTS AND VISUALIZATIONS
- 
 
 
    
+![excel sales by product](https://github.com/user-attachments/assets/8ea788e6-9f2f-4f12-8267-99b2b78e18e8)
+
+
+![excel sales by region](https://github.com/user-attachments/assets/79016ae7-b624-40ca-a898-2b9244f88f60)
+
+
+![excel sales by year](https://github.com/user-attachments/assets/f714263a-0773-4f0c-aabc-9746954986f5)
+
+
+![excel quantity per year sales](https://github.com/user-attachments/assets/cb9a3518-04fc-4c46-8084-981f44ccf24d)
+
+
+
+#### SQL CODES AND VALIDATED QUERIES
