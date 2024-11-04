@@ -1,5 +1,8 @@
 # LITA-CAPSTONE-RETAIL-STORE-SALES-DATA
 
+## PROJECT TITLE: RETAIL STORE SALES
+---
+
 ### PROJECT OVERVIEW
 ---
 This Data Analysis project aims to generate insight into the sales performance of a Retail store. By analyzing the various parameters in the data received we seek to uncover key insights such as top-selling products, regional performance, and monthly sales trends, that can guide business decisions and foster growth.
@@ -68,4 +71,35 @@ The dataset includes the following fields:
  - In SQL Server Management Studio, codes were written to provide answers to research questions and screenshots of the output was taken.
  -  In Power BI, several visualizations were made using Bar charts, tables, cards, Pie charts, Slicers, etc.
 
+   
+### EXPLORATORY DATA ANALYSIS
+---
+EDA involved the exploring of Data to answer some questions about the Data such as;
+
+1. EXCEL:
+i. Using pivot tables to summarize 
+- total sales by product
+- total sales by region
+- total sales by month.
+ii. Use Excel formulas to calculate metrics such as average sales per product and 
+total revenue by region
+
+2. SQL: Codes were written to validate these queries
+- retrieve the total sales for each product category.
+- find the number of sales transactions in each region.
+- find the highest-selling product by total sales value.
+- calculate total revenue per product.
+- calculate monthly sales totals for the current year.
+- find the top 5 customers by total purchase amount.
+- calculate the percentage of total sales contributed by each region.
+- identify products with no sales in the last quarter.
+
+3. POWER BI: Create a Dashboard that visualizes the insights found in Excel and SQL, the dashboard should include
+- Sales overview
+- Top-performing products, and 
+- Regional breakdowns
+
+
+DATA ANALYSIS
+This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis;
    
