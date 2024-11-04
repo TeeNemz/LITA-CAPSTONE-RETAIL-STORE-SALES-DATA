@@ -55,3 +55,15 @@ The dataset includes the following fields:
 - Github for Portfolio Building
 
 ### DATA CLEANING AND PREPARATIONS
+---
+1. Data Cleaning
+   - Using Excel, all duplicated data were removed by going to the Data tab > Data tools > Remove duplicates
+     
+2. Data Importation
+   - A copy of the cleaned data was converted to CSV flat and imported into SQL Server Management Studio 20
+   - A copy of the cleaned data was also imported into Power BI, the  data was transformed and appropriate data types were chosen and applied
+  
+3. Data Visualization
+ - In Excel, Pivot tables were used to summarize the data and Bar charts were created to visually represent key insights.
+ - In SQL Server Management Studio, codes were written to provide answers to research questions and screenshots of the output was taken.
+ -  In Power BI, several visualizations were made using Bar charts, tables, cards, Pie charts, Slicers, etc.
