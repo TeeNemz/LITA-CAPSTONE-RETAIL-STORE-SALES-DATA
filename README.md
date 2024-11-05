@@ -13,7 +13,7 @@ The primary objectives of this data analysis project are to:
 
 - Understand Customer Preferences: Identify which Product categories, styles, and price points resonate most with customers.
 
-- Analyze Sales Trends:Track sales trends across region,months and year to optimize inventory and marketing efforts with high-demand times.
+- Analyze Sales Trends: Track sales trends across region,months and year to optimize inventory and marketing efforts with high-demand times.
 
 - Optimize Inventory Management: Determine fast-moving and slow-moving items to ensure optimal stock levels, reducing overstock and stockouts.
 
@@ -21,7 +21,7 @@ The primary objectives of this data analysis project are to:
 
 ### DATA SOURCE
 ---
-The primary source of Data used here is Sales data.xlsx and this is an open source data that was provided by the instructors of Ladies In Tech program, it can be freely downloaded from an open source online such as Kaggle or FRED or any other data repository site.
+The primary source of Data used here is Sales data.xlsx that was provided by the instructors of  Incubator hub for the Ladies In Tech program.
 
 ### DATA DESCRIPTION
 ---
@@ -104,49 +104,94 @@ total revenue by region
 ---
 This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis;
 
-1. SQL SERVER MANAGEMENT STUDIO 20 CODE/QUERIES
+1. Microsoft Excel (Ms Excel)
+
+- Revenue column was added and calculated using this function
+
+```
+   =Revenue (Unit Price * Quantity)
+```
+- Metrics such as Average sales per product and total revenue by region where calculated
+
+Example for Average sales of shirt:
+
+```
+ =AVERAGEIFS(H2:H9922, C2:C9922,M6)
+```
+
+2. Structured Query Language
+
+The following queries were written to analyse the sales performance
+
 
 ```SQL
 
 SELECT * FROM [dbo].[Capstone Sales main]
-
+```
+a. Retrieve the total sales for each product category:
+```
 
 SELECT Product, Sum(Quantity*unitprice) AS Total_sales
 FROM [dbo].[Capstone Sales main]
 GROUP BY Product
 
+```
+b. Find the number of sales transcations in each region:
+```
 
 SELECT Region, Count(*) AS NumberOfTransaction
 FROM [dbo].[Capstone Sales main]
 GROUP BY Region
 
+```
+c. Find the highest selling product by total sales value:
+```
 
 SELECT Top 1 product, Sum(Quantity*unitprice) AS Total_sales
 FROM [dbo].[Capstone Sales main]
 GROUP BY Product
 ORDER BY Total_sales DESC
 
+```
+d. Calculate total revenue per product:
+```
 
+Select Product, sum(Revenue) as Total_revenue
+From [dbo].[Capstone Sales main]
+Group By Product
+
+```
+e. Find the top 5 customers by total purchase amount:
+```
 
 SELECT Top 5 Customer_id, Sum(Quantity*unitprice) AS Total_Purchase_Amount
 FROM [dbo].[Capstone Sales main]
 GROUP BY Customer_id
 ORDER BY Total_Purchase_Amount DESC
 
+```
+f. Calculate monthly sales totals for the current year:
+```
 
 SELECT Month(OrderDate) AS Month, Sum(Quantity*unitprice) AS Monthly_Sales
 FROM [dbo].[Capstone Sales main]
 WHERE Year(OrderDate) = Year(GetDate())
 GROUP BY Month(OrderDate)
-ORDER BY Month 
+ORDER BY Month
 
- 
+```
+ g. Calculate the percentage of total sales contributed by each region:
+```
+
 SELECT Region, sum(Quantity*unitprice) AS Total_sales,
 sum(Quantity*unitprice) * 1.0/ (select sum(Quantity*unitprice)
 FROM [dbo].[Capstone Sales main]) * 100 AS Percentage_Of_Total_Sales
 FROM [dbo].[Capstone Sales main]
 GROUP BY Region
 
+```
+h. Identify products with no sales in the last quarter:
+```
 
 SELECT Distinct Product
 FROM [dbo].[SALES DATA SQL]
@@ -155,6 +200,7 @@ SELECT Product
 FROM [dbo].[Capstone Sales main]
 WHERE OrderDate >= DateAdd(quarter,-1,GetDate()) and OrderDate < GetDate())
 ```
+
 
 ### DATA VISUALIZATIONS
 ---
