@@ -280,9 +280,7 @@ It was observed that the region with the highest sales was South ($927,820) foll
 
 - Infrastructure and Retail Presence: The South and East regions have more developed retail infrastructure, including shopping malls, boutiques, and e-commerce delivery services, making it easier for customers to access and purchase clothing items.
 
-- Climate and Seasonal Demand:
-
- Nigeria has a generally warm climate, but the South and East experience relatively more rainfall. This drives demand for certain items like shoes and hats that can be used year-round, while demand for items like jackets might be more seasonal. In contrast, the North tends to be hotter and drier, with less demand for items like jackets or gloves.
+- Climate and Seasonal Demand: Nigeria has a generally warm climate, but the South and East experience relatively more rainfall. This drives demand for certain items like shoes and hats that can be used year-round, while demand for items like jackets might be more seasonal. In contrast, the North tends to be hotter and drier, with less demand for items like jackets or gloves.
 
 - Fashion Trends and Social Influence: The Southern and Eastern regions, especially urban centers like Lagos, are known for their vibrant fashion scenes. Influencers, celebrities, and local trends drive higher demand for stylish clothing items.
   
@@ -291,6 +289,8 @@ iii. Monthly trends:
 
 It was observed that February has the highest revenue in both 2023 and 2024, with a revenue of $247,500 and $288,800 for 2023 and 2024 respectively
 This can be attributed to Post-Holiday Sales. Many retailers run clearance and discount events to move leftover inventory from the holiday season, hence attracting bargain hunters.
+
+Additionally, new spring collections may be launching thus sparking fresh interest. Also Valentine Day is in February, Apparel is often a popular gift choice for Valentine's Day, boosting sales of items like shirts, hats, and socks.
 
 
 #### SUGGESTIONS
