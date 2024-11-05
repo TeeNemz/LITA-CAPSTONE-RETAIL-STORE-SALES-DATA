@@ -287,13 +287,15 @@ It was observed that the region with the highest sales was South ($927,820) foll
 
 iii. Monthly trends:
 
-It was observed that February has the highest revenue in both 2023 and 2024, with a revenue of $247,500 and $288,800 for 2023 and 2024 respectively
+It was observed that February has the highest revenue in both 2023 and 2024, with a revenue of $247,500 and $288,800 for 2023 and 2024 respectively. 
 This can be attributed to Post-Holiday Sales. Many retailers run clearance and discount events to move leftover inventory from the holiday season, hence attracting bargain hunters.
 
 Additionally, new spring collections may be launching thus sparking fresh interest. Also Valentine Day is in February, Apparel is often a popular gift choice for Valentine's Day, boosting sales of items like shirts, hats, and socks.
 
 
 #### SUGGESTIONS
+
+- A combo deal of Shoes and socks can be initiated to  help improve the sales of socks.
 
 
 
