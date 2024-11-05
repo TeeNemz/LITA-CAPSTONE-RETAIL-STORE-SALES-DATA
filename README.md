@@ -3,6 +3,34 @@
 ## PROJECT TITLE: RETAIL STORE SALES
 ---
 
+## TABLE OF CONTENT
+---
+
+[PROJECT OVERVIEW](#Project-overview)
+
+[PROJECT OBJECTIVES](#Product-Objectives)
+
+[DATA SOURCE](#Data-source)
+
+[DATA DESCRIPTION](#Data-description)
+
+[TOOLS USED](#Tools-used)
+
+[DATA CLEANING AND PREPARATIONS](#Data-cleaning-and-preparations)
+
+[EXPLORATORY DATA ANALYSIS](#Exploratory-data-analysis)
+
+[DATA ANALYSIS](#Data-analysis)
+
+[KEY INSIGHTS AND INFERENCE](#Key-insights-and-inference)
+
+[SUGGESTIONS](#Suggestions)
+
+[CONCLUSION](#Conclusion)
+
+
+
+
 ### PROJECT OVERVIEW
 ---
 This Data Analysis project aims to generate insight into the sales performance of a Retail store. By analyzing the various parameters in the data received we seek to uncover key insights such as top-selling products, regional performance, and monthly sales trends, that can guide business decisions and foster growth.
@@ -22,6 +50,7 @@ The primary objectives of this data analysis project are to:
 ### DATA SOURCE
 ---
 The primary source of Data used here is Sales data.xlsx that was provided by the instructors of  Incubator hub for the Ladies In Tech program.
+
 
 ### DATA DESCRIPTION
 ---
@@ -250,9 +279,9 @@ WHERE OrderDate >= DateAdd(quarter,-1,GetDate()) and OrderDate < GetDate())
 A Dashboard that visualizes the insights found in excel and SQL.
 The dashboard include sales overview, top performing products, regional and yearly breakdown
 
-### ANALYTICAL RESULTS
 
-#### KEY INSIGHTS AND INFERENCE:
+
+### KEY INSIGHTS AND INFERENCE:
 
 i.  Product Performance:
 
@@ -293,11 +322,11 @@ This can be attributed to Post-Holiday Sales. Many retailers run clearance and d
 Additionally, new spring collections may be launching thus sparking fresh interest. Also Valentine Day is in February, Apparel is often a popular gift choice for Valentine's Day, boosting sales of items like shirts, hats, and socks.
 
 
-#### SUGGESTIONS
+### SUGGESTIONS
 
 - A combo deal of Shoes and socks can be initiated to  help improve the sales of socks.
 
 
 
-#### CONCLUSIONS
+### CONCLUSIONS
 In summary, population density, economic strength, fashion trends, retail infrastructure, and cultural practices all contribute to the higher sales performance of clothing items in Nigeria's South and East compared to the West and North.
