@@ -41,7 +41,6 @@ The dataset includes the following fields:
 
 - UNIT PRICE: The selling price of each product
 
-- TOTAL REVENUE: The total sales revenue generated from each order. It can be calculated as Quantity Sold * Price per Unit. This is essential for revenue analysis, profit calculations, and sales performance metrics.
 
   ### TOOLS USED
   ---
@@ -250,3 +249,30 @@ WHERE OrderDate >= DateAdd(quarter,-1,GetDate()) and OrderDate < GetDate())
 
 A Dashboard that visualizes the insights found in excel and SQL.
 The dashboard include sales overview, top performing products, regional and yearly breakdown
+
+### ANALYTICAL RESULTS
+
+#### KEY INSIGHTS AND INFERENCE:
+
+i.  Product Performance:
+
+It was observed that the product 'Shoes' yielded the highest total sales revenue of $613,380, followed by Shirt ($485,600), Hat ($316,195), Gloves ($296,900), Jacket ($208,230) with Socks being the lowest with a total sales revenue of $180,785. The reasons for this could be related to the following;
+
+- Frequency of Use: Shirts and shoes are everyday essentials. People tend to wear shirts regularly, often needing multiple options for different occasions, while shoes can also vary based on style, activity (like running vs. casual), and season.
+  
+- Climate, Comfort and Fit: Consumers often prioritize comfort in clothing choices. Well-fitting shirts and comfortable shoes are crucial for daily wear, whereas items like jackets and gloves might not be needed as frequently, depending on the climate.
+
+- Versatility: Shirts and shoes are often more versatile and can be worn in a variety of settings. A good shirt can be dressed up or down, making it suitable for casual outings, work, or formal events. Similarly, shoes, especially styles like sneakers or loafers, can complement a wide range of outfits and occasions.
+
+- Fashion Trends: Shirts, being a staple item in most wardrobes, are frequently updated with new styles, colors, and patterns. Footwear trends also evolve, leading to increased consumer interest and purchasing frequency for shoes.
+
+- Price Points: Shirts and shoes can be found in a wide range of price points, making them accessible to a broader audience. This accessibility can encourage more purchases, as customers feel they can find options within their budget.
+
+- Seasonal Demand: Shirts and shoes can be purchased year-round, While jackets and gloves are typically seasonal items. This continual demand keeps sales consistent, unlike more seasonal items that may see spikes in specific months.
+
+ii. Region Performance
+
+
+#### SUGGESTIONS
+
+#### CONCLUSIONS
