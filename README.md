@@ -270,9 +270,24 @@ It was observed that the product 'Shoes' yielded the highest total sales revenue
 
 - Seasonal Demand: Shirts and shoes can be purchased year-round, While jackets and gloves are typically seasonal items. This continual demand keeps sales consistent, unlike more seasonal items that may see spikes in specific months.
 
-ii. Region Performance
+ii. Region Performance:
+
+It was observed that the region with the highest sales was South ($927,820) followed by the East ($485,925), North ($387,000) with the West having the lowest with a revenue of $300,345. The Sales performance in these regions can be attributed to several factors:
+
+- Population Density and Urbanization: In Nigeria, The South and East regions include highly populated and urbanized regions such as Lagos, Rivers, and Abia. These areas have larger consumer bases with increased purchasing power, resulting in higher sales for everyday items like shirts and shoes.
+  
+- Economic Activities and Disposable Income: The Southern and Eastern regions have strong economic activities asa result of being the center for commerce and proximity to sea port, they are aslso home to several oil wells, trade, and manufacturing industries, particularly around Rivers, Lagos and Ogun. These industries contribute to higher average disposable incomes, allowing consumers to spend more on apparel and fashion products. As people in these regions often have more disposable income, they are more likely to purchase items beyond basic needs, including trendy or high-quality clothing and accessories.
+
+- Infrastructure and Retail Presence: The South and East regions have more developed retail infrastructure, including shopping malls, boutiques, and e-commerce delivery services, making it easier for customers to access and purchase clothing items.
+
+- Climate and Seasonal Demand:
+
+Nigeria has a generally warm climate, but the South and East experience relatively more rainfall. This drives demand for certain items like shoes and hats that can be used year-round, while demand for items like jackets might be more seasonal. In contrast, the North tends to be hotter and drier, with less demand for items like jackets or gloves.
+
+- Fashion Trends and Social Influence: The Southern and Eastern regions, especially urban centers like Lagos, are known for their vibrant fashion scenes. Influencers, celebrities, and local trends drive higher demand for stylish clothing items.
 
 
 #### SUGGESTIONS
 
 #### CONCLUSIONS
+In summary, population density, economic strength, fashion trends, retail infrastructure, and cultural practices all contribute to the higher sales performance of clothing items in Nigeria's South and East compared to the West and North.
