@@ -156,7 +156,7 @@ ORDER BY Total_sales DESC
 d. Calculate total revenue per product:
 ```
 
-Select Product, sum(Revenue) as Total_revenue
+Select Product, sum(Quantity*unitprice) as Total_revenue
 From [dbo].[Capstone Sales main]
 Group By Product
 
@@ -204,8 +204,8 @@ WHERE OrderDate >= DateAdd(quarter,-1,GetDate()) and OrderDate < GetDate())
 
 ### DATA VISUALIZATIONS
 ---
-#### MICROSOFT EXCEL INSIGHTS AND VISUALIZATIONS
 
+#### MICROSOFT EXCEL INSIGHTS AND VISUALIZATIONS
 
    
 ![excel sales by product](https://github.com/user-attachments/assets/8ea788e6-9f2f-4f12-8267-99b2b78e18e8)
@@ -247,3 +247,6 @@ WHERE OrderDate >= DateAdd(quarter,-1,GetDate()) and OrderDate < GetDate())
 
 
 #### POWER BI INSIGHTS AND VISUALIZATIONS
+
+A Dashboard that visualizes the insights found in excel and SQL.
+The dashboard include sales overview, top performing products, regional and yearly breakdown
