@@ -22,6 +22,8 @@
 
 [DATA ANALYSIS](#Data-analysis)
 
+[DATA VISUALIZATION](#Data-visualization)
+
 [KEY INSIGHTS AND INFERENCE](#Key-insights-and-inference)
 
 [RECOMMENDATIONS](#Recommendations)
