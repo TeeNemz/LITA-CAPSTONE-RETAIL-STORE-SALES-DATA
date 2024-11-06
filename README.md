@@ -76,7 +76,9 @@ The dataset includes the following fields:
 - Microsoft Excel 
 
 a. For Data Cleaning
+
 b. For Analysis
+
 c. For Visualization
    
 - SQL - Structured Query Language for querying of Data
