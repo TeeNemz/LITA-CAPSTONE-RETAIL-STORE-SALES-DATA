@@ -24,7 +24,7 @@
 
 [KEY INSIGHTS AND INFERENCE](#Key-insights-and-inference)
 
-[SUGGESTIONS](#Suggestions)
+[RECOMMENDATIONS](#Recommendations)
 
 [CONCLUSION](#Conclusion)
 
